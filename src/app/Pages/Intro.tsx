@@ -19,7 +19,7 @@ export default function Intro() {
                     </a>
                 </div>
             </div> */}
-            <img className='mt-5 w-72' src={'https://scontent-tpe1-1.xx.fbcdn.net/v/t39.30808-6/439422427_3545641972413010_2016858591960635207_n.jpg?stp=cp6_dst-jpg&_nc_cat=107&ccb=1-7&_nc_sid=5f2048&_nc_ohc=djydsJlYi_sAb7SpYlA&_nc_ht=scontent-tpe1-1.xx&oh=00_AfBvQil9OgqrN_uOk9o1Y6C9ruUgg9vFh767YthOdJx2sQ&oe=662AFC96'}></img>
+            {/* <img className='mt-5 w-72' src={'https://scontent-tpe1-1.xx.fbcdn.net/v/t39.30808-6/439422427_3545641972413010_2016858591960635207_n.jpg?stp=cp6_dst-jpg&_nc_cat=107&ccb=1-7&_nc_sid=5f2048&_nc_ohc=djydsJlYi_sAb7SpYlA&_nc_ht=scontent-tpe1-1.xx&oh=00_AfBvQil9OgqrN_uOk9o1Y6C9ruUgg9vFh767YthOdJx2sQ&oe=662AFC96'}></img> */}
 
             <div className="text-center">
                 <p className='mt-20 text-4xl font-black text-gray-900 dark:text-white letter-spacing:3px'>減 碳 排 放 計 算 機</p>
@@ -30,6 +30,7 @@ export default function Intro() {
                     使用減碳排放計算機試試看自己的數字吧
                 </p>
             </div>
+            
 
             <button className="item-center w-80 h-30 mt-60 grid text-center">
                 <Link to="/Cardpick" className="w-full group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30">

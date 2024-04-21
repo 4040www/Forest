@@ -1,4 +1,6 @@
-import React, { useState, useRef } from 'react';
+"use client"
+
+import React, { useState } from 'react';
 import { Link, useLocation } from 'react-router-dom';
 
 export default function Cardpsick() {
@@ -70,7 +72,6 @@ export default function Cardpsick() {
     const [calculationResult, setCalculationResult] = useState(0.0);
     const [pageChange, setPageChange] = useState(false);
     const state = useLocation();
-    const inputValueRef = useRef(0);
 
     const selectCard = (id: number) => {
         const updatedItems = itemsState.map(item => {
