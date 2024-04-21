@@ -230,7 +230,7 @@ export default function Pages() {
                         <div className='mb-10 text-center'>
                             <p className='mt-5 mb-10 text-4xl font-black text-gray-900 dark:text-white letter-spacing:3px'>減 碳 排 放 計 算 機</p>
                             <p className='mt-15 text-2xl mb-5 font-black text-gray-600 dark:text-white letter-spacing:3px'>持續做出改變</p>
-                            <div className='flex text-center justify-center gap-1.5'>
+                            <div className='text-center'>
                                 <p className='mt-15 text-2xl mb-5 font-black text-gray-600 dark:text-white letter-spacing:3px'>一年後可以減少 </p>
                                 <p className='mt-15 text-2xl mb-5 font-black text-green-900 dark:text-white letter-spacing:3px'>{(calculationResult).toFixed(3)}</p>
                                 <p className='mt-15 text-2xl mb-5 font-black text-gray-600 dark:text-white letter-spacing:3px'>公斤的碳排放</p>
@@ -256,7 +256,7 @@ export default function Pages() {
                                 </button>
                             </button>
                         </div>
-                        <div className='flex text-center justify-center gap-1.5 ml-10 mr-10 mb-10'>
+                        <div className='text-center'>
                             <p className='text-center text-l font-black text-gray-600 dark:text-white'>截圖自己的減碳承諾並上傳  </p>
                             <p>  </p>
                             <p className='text-center text-l font-black text-green-900 dark:text-white'><a href='https://www.instagram.com/ntutrees_/' className='border'> @ntutrees_ </a></p>
