@@ -153,7 +153,7 @@ export default function Pages() {
             ) : (
                 (page == 1) ? (
 
-                    <div className='bg-white bg-opacity-90 m-5 w-96 flex justify-center w-auto'>
+                    <div className='bg-white bg-opacity-90 m-5 flex justify-center w-auto'>
                         {(!pageChange) ? (
                             <div className='grid grid-cols-1 justify-center text-center w-auto h-auto'>
                                 <div className='ml-20 mr-20'>
@@ -231,9 +231,9 @@ export default function Pages() {
                             <p className='mt-5 mb-10 text-4xl font-black text-gray-900 dark:text-white letter-spacing:3px'>減 碳 排 放 計 算 機</p>
                             <p className='mt-15 text-2xl mb-5 font-black text-gray-600 dark:text-white letter-spacing:3px'>持續做出改變</p>
                             <div className='text-center'>
-                                <p className='text-2xl mb-5 font-black text-gray-600 dark:text-white letter-spacing:3px'>一年後可以減少 </p>
-                                <p className='text-2xl mb-5 font-black text-green-900 dark:text-white letter-spacing:3px'>{(calculationResult).toFixed(3)}</p>
-                                <p className='text-2xl mb-5 font-black text-gray-600 dark:text-white letter-spacing:3px'>公斤的碳排放</p>
+                                <p className='text-2xl font-black text-gray-600 dark:text-white letter-spacing:3px'>一年後可以減少 </p>
+                                <p className='text-2xl font-black text-green-900 dark:text-white letter-spacing:3px'>{(calculationResult).toFixed(3)}</p>
+                                <p className='text-2xl font-black text-gray-600 dark:text-white letter-spacing:3px'>公斤的碳排放</p>
                             </div>
                             <div className='flex text-center justify-center gap-1.5'>
                                 <p className='text-center mt-5 mb-30 text-2xl mb-15 font-black text-gray-600 dark:text-white letter-spacing:3px'>相當於種植 </p>
@@ -260,9 +260,9 @@ export default function Pages() {
                             <p className='text-center text-l font-black text-gray-600 dark:text-white'>截圖自己的減碳承諾並上傳  </p>
                             <p>  </p>
                             <div className='flex text-center mb-10'>
-                                <p className='text-center text-l font-black text-green-900 dark:text-white'><a href='https://www.instagram.com/ntutrees_/' className='border'> @ntutrees_ </a></p>
+                                <p className='text-l font-black text-green-900 dark:text-white'><a href='https://www.instagram.com/ntutrees_/' className='border'> @ntutrees_ </a></p>
                                 <p>  </p>
-                                <p className='text-center text-l font-black text-gray-600 dark:text-white'>  即可參加抽獎！</p>
+                                <p className='text-l font-black text-gray-600 dark:text-white'>  即可參加抽獎！</p>
                             </div>
                         </div>
                     </div>
