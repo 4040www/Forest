@@ -181,12 +181,12 @@ export default function Pages() {
                                 </div>
                                 <div className='h-4' ></div>
                             </div>
-                        ) : (<div className='grid grid-cols-1 justify-center text-center h-fit'>
+                        ) : (<div className='grid grid-cols-1 justify-center text-center w-auto h-fit'>
                             <div className=''>
                                 <p className='mt-5 mb-10 text-4xl font-black text-gray-900 dark:text-white letter-spacing:3px'>減 碳 排 放 計 算 機</p>
                                 <p className='m-0 text-l mb-15 font-black text-gray-600 dark:text-white letter-spacing:3px'>輸入你的減碳行動量</p>
                             </div>
-                            <div className='grid grid-cols-1 gap-4 mt-10 w-30'>
+                            <div className='grid grid-cols-1 gap-4 mt-10 ml-10 mr-10'>
                                 {itemsState.filter(item => item.select).filter(item => item.id != 8).map(item => (
                                     <div key={item.id} className='block max-w-sm p-6 bg-white border border-gray-200 rounded-lg shadow hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700'>
                                         <div className='px-4 py-3 w-full grid grid-cols-1 grid-center'>
@@ -226,7 +226,7 @@ export default function Pages() {
                         }
                     </div>
                 ) : (
-                    <div className='flex flex-col flex-center justify-center gap-10  bg-white bg-opacity-90 m-5 w-[34rem] h-[44rem]'>
+                    <div className='flex flex-col flex-center justify-center gap-10  bg-white bg-opacity-90 m-5 w-auto h-auto'>
                         <div className='mb-10 text-center'>
                             <p className='mt-5 mb-10 text-4xl font-black text-gray-900 dark:text-white letter-spacing:3px'>減 碳 排 放 計 算 機</p>
                             <p className='mt-15 text-2xl mb-5 font-black text-gray-600 dark:text-white letter-spacing:3px'>持續做出改變</p>
@@ -256,7 +256,7 @@ export default function Pages() {
                                 </button>
                             </button>
                         </div>
-                        <div className='flex text-center justify-center gap-1.5'>
+                        <div className='flex text-center justify-center gap-1.5 ml-10 mr-10 mb-10'>
                             <p className='text-center text-l font-black text-gray-600 dark:text-white'>截圖自己的減碳承諾並上傳  </p>
                             <p>  </p>
                             <p className='text-center text-l font-black text-green-900 dark:text-white'><a href='https://www.instagram.com/ntutrees_/' className='border'> @ntutrees_ </a></p>
