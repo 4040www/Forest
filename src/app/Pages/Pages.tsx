@@ -122,7 +122,7 @@ export default function Pages() {
     }
 
     return (
-        <div className="flex min-h-screen flex-col items-center justify-center" style={{ backgroundImage: `url(https://images.pexels.com/photos/172289/pexels-photo-172289.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1)`, backgroundSize: 'cover', backgroundPosition: 'center', backgroundColor: 'rgba(255, 255, 255, 0.5)' }}>
+        <div className="flex min-h-screen flex-col items-center justify-center h-[84rem]" style={{ backgroundImage: `url(https://images.pexels.com/photos/172289/pexels-photo-172289.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1)`, backgroundSize: 'cover', backgroundPosition: 'center', backgroundColor: 'rgba(255, 255, 255, 0.5)' }}>
             {(page == 0) ? (
                 <div className='flex flex-col items-center bg-white bg-opacity-90 m-5 w-[44rem] h-[44rem]'>
                 <div className="text-center">
@@ -153,9 +153,9 @@ export default function Pages() {
             ) : (
                 (page == 1) ? (
 
-                    <div className='bg-white bg-opacity-90 m-5 w-96 flex justify-center w-[44rem] h-full'>
+                    <div className='bg-white bg-opacity-90 m-5 w-96 flex justify-center w-[44rem]'>
             {(!pageChange) ? (
-                <div className='grid grid-cols-1 justify-center text-center w-11/12'>
+                <div className='grid grid-cols-1 justify-center text-center w-11/12 h-[44rem]'>
                     <div className=''>
                         <p className='mt-5 mb-10 text-4xl font-black text-gray-900 dark:text-white letter-spacing:3px'>減 碳 排 放 計 算 機</p>
                         <p className='m-0 text-l mb-15 font-black text-gray-600 dark:text-white letter-spacing:3px'>選取你每週願意達到的事項</p>
@@ -181,7 +181,7 @@ export default function Pages() {
                     </div>
                     <div className='h-4' ></div>
                 </div>
-            ) : (<div className='grid grid-cols-1 justify-center text-center'>
+            ) : (<div className='grid grid-cols-1 justify-center text-center h-fit'>
                 <div className=''>
                     <p className='mt-5 mb-10 text-4xl font-black text-gray-900 dark:text-white letter-spacing:3px'>減 碳 排 放 計 算 機</p>
                     <p className='m-0 text-l mb-15 font-black text-gray-600 dark:text-white letter-spacing:3px'>輸入你的減碳行動量</p>
