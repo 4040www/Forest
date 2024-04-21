@@ -157,7 +157,7 @@ export default function Pages() {
                         {(!pageChange) ? (
                             <div className='grid grid-cols-1 justify-center text-center w-11/12 h-auto'>
                                 <div className='ml-20 mr-20'>
-                                    <p className='mt-5 mb-10 text-4xl font-black text-gray-900 dark:text-white letter-spacing:3px'>減 碳 排 放 計 算 機</p>
+                                    <p className='mt-5 mb-10 text-4xl font-black text-gray-900 dark:text-white letter-spacing:3px mr-10 ml-10'>減 碳 排 放 計 算 機</p>
                                     <p className='m-0 text-l mb-15 font-black text-gray-600 dark:text-white letter-spacing:3px'>選取你每週願意達到的事項</p>
                                 </div>
                                 <div className='grid gap-4 mt-10 grid grid-cols-2'>
@@ -203,15 +203,15 @@ export default function Pages() {
                                     </div>
                                 ))}
                                 <div className='block max-w-sm p-6'>
-                                        <div className='px-4 py-3 w-full grid grid-cols-1 grid-center'>
-                                            <p className='w-full text-xl'>
-                                            </p>
-                                        </div>
-                                        <div className='mt-5 h-10 w-50 grid grid-cols-1 justify-center text-center'>
-                                            <p className='mt-3.5'>
-                                            </p>
-                                        </div>
+                                    <div className='px-4 py-3 w-full grid grid-cols-1 grid-center'>
+                                        <p className='w-full text-xl'>
+                                        </p>
                                     </div>
+                                    <div className='mt-5 h-10 w-50 grid grid-cols-1 justify-center text-center'>
+                                        <p className='mt-3.5'>
+                                        </p>
+                                    </div>
+                                </div>
                             </div>
                             <div className='h-30'>
                                 <button className='w-40 h-30 border border-transparent px-5 py-4 rounded-md mt-10 hover:border-indigo-500 hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30' onClick={calculateResult}>
@@ -231,9 +231,9 @@ export default function Pages() {
                             <p className='mt-5 mb-10 text-4xl font-black text-gray-900 dark:text-white letter-spacing:3px'>減 碳 排 放 計 算 機</p>
                             <p className='mt-15 text-2xl mb-5 font-black text-gray-600 dark:text-white letter-spacing:3px'>持續做出改變</p>
                             <div className='text-center'>
-                                <p className='mt-15 text-2xl mb-5 font-black text-gray-600 dark:text-white letter-spacing:3px'>一年後可以減少 </p>
-                                <p className='mt-15 text-2xl mb-5 font-black text-green-900 dark:text-white letter-spacing:3px'>{(calculationResult).toFixed(3)}</p>
-                                <p className='mt-15 text-2xl mb-5 font-black text-gray-600 dark:text-white letter-spacing:3px'>公斤的碳排放</p>
+                                <p className='text-2xl mb-5 font-black text-gray-600 dark:text-white letter-spacing:3px'>一年後可以減少 </p>
+                                <p className='text-2xl mb-5 font-black text-green-900 dark:text-white letter-spacing:3px'>{(calculationResult).toFixed(3)}</p>
+                                <p className='text-2xl mb-5 font-black text-gray-600 dark:text-white letter-spacing:3px'>公斤的碳排放</p>
                             </div>
                             <div className='flex text-center justify-center gap-1.5'>
                                 <p className='text-center mt-5 mb-30 text-2xl mb-15 font-black text-gray-600 dark:text-white letter-spacing:3px'>相當於種植 </p>
@@ -242,7 +242,7 @@ export default function Pages() {
                             </div>
                         </div>
 
-                        <div className='mt-30 justify-center flex flex-center'>
+                        <div className='mt-30 justify-center flex flex-center mb-10'>
                             <button className="rounded-lg border px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30">
                                 <button onClick={() => { reset() }}>
                                     <h2 className={`mb-3 text-2xl font-semibold`}>
@@ -259,9 +259,11 @@ export default function Pages() {
                         <div className='text-center'>
                             <p className='text-center text-l font-black text-gray-600 dark:text-white'>截圖自己的減碳承諾並上傳  </p>
                             <p>  </p>
-                            <p className='text-center text-l font-black text-green-900 dark:text-white'><a href='https://www.instagram.com/ntutrees_/' className='border'> @ntutrees_ </a></p>
-                            <p>  </p>
-                            <p className='text-center text-l font-black text-gray-600 dark:text-white'>  即可參加抽獎！</p>
+                            <div className='flex'>
+                                <p className='text-center text-l font-black text-green-900 dark:text-white'><a href='https://www.instagram.com/ntutrees_/' className='border'> @ntutrees_ </a></p>
+                                <p>  </p>
+                                <p className='text-center text-l font-black text-gray-600 dark:text-white'>  即可參加抽獎！</p>
+                            </div>
                         </div>
                     </div>
                 )
