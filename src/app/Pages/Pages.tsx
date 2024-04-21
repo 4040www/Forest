@@ -259,7 +259,7 @@ export default function Pages() {
                         <div className='text-center'>
                             <p className='text-center text-l font-black text-gray-600 dark:text-white'>截圖自己的減碳承諾並上傳  </p>
                             <p>  </p>
-                            <div className='flex text-center mb-10'>
+                            <div className='flex text-center mb-10 justify-center'>
                                 <a href='https://www.instagram.com/ntutrees_/' className='border'> @ntutrees_ </a>
                                 <p className='text-l font-black text-gray-600 dark:text-white'>  即可參加抽獎！</p>
                             </div>
